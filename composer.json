@@ -1,0 +1,50 @@
+{
+  "name": "codicastudio/abtesting",
+  "description": "A noobs worthless garbage, just learning.",
+  "keywords": [
+      "worthless garabage by a noob."
+  ],
+  "homepage": "https://github.com/codicastudio/abtesting",
+  "license": "MIT",
+  "authors": [
+      {
+          "name": "Michael J Brown",
+          "email": "mbrown@codicastudio.com",
+          "homepage": "https://codicastudio.com",
+          "role": "Developer"
+      }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Orchid\\Experiment\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Orchid\\Experiment\\Tests\\": "tests/"
+    }
+  },
+  "require": {
+    "ext-json": "*",
+    "laravel/framework": "^8.0"
+  },
+  "require-dev": {
+    "orchestra/testbench": "^6.0",
+    "phpunit/php-code-coverage": "^9.0",
+    "phpunit/phpunit": "^9.0"
+  },
+  "config": {
+    "preferred-install": "dist",
+    "sort-packages": true,
+    "optimize-autoloader": true
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Orchid\\Experiment\\ExperimentServiceProvider"
+      ]
+    }
+  }
+}
