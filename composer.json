@@ -1,10 +1,10 @@
 {
-  "name": "codica/abtesting",
+  "name": "codica-studio/abtesting",
   "description": "A random Codica Studio package.",
   "keywords": [
       ""
   ],
-  "homepage": "https://github.com/codicastudio/abtesting",
+  "homepage": "https://github.com/codica-studio/abtesting",
   "license": "MIT",
   "authors": [
       {
