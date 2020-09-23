@@ -1,7 +1,7 @@
 {
-  "name": "codica-studio/abtesting",
+  "name": "codicastudio/ab-testing",
   "description": "A random Codica Studio package.",
-  "homepage": "https://github.com/codicastudio/abtesting",
+  "homepage": "https://github.com/codicastudio/ab-testing",
   "license": "MIT",
   "authors": [
       {
